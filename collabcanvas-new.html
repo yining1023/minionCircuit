@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Minion Circuit Project</title>
+		<meta property="og:title" content="What Goes In &amp; Out of Hydraulic Fracking" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://dangersoffracking.com" />
+		<!-- <meta property="og:image" content="http://dangersoffracking.com/thumb.png" /> -->
+		<meta property="og:site_name" content="Dangers of Fracking" />
+		<meta property="fb:admins" content="lindadong" />
+		
+		<meta charset="UTF-8" />
+		<meta name="What goes in and out of Hydraulic Fracturing." content="" />
+		<meta name="keywords" content="Fracking, natural gas, marcellus shale, water pollution, air pollution, water contamination, infographic" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		
+		
+		<!--Style Sheets and Javascript-->
+		<link rel='stylesheet' type='text/css' href='fracking.css'/>
+
+		<script src="/socket.io/socket.io.js"></script>
+
+		<script type="text/javascript" src="http://use.typekit.com/liu4hka.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+		<!--<script type="text/javascript" src="scroll.js"></script> -->
+		<!-- <script type="text/javascript" src="jquery.tipTip.js"></script> -->
+  
+		<script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+	
+  	<script language="javascript" type="text/javascript" src="sketch.js"></script>
+
+
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-9517031-4']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+
+		
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=121718001270721";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="wrapper">
+
+	<!-- Sky -->
+	<section id="sky">
+	
+		<hgroup>
+			<h3 id="title0">How Does a </h3>
+			<h1>Minion<br> Circuit</h1>
+			<h3 id="title">WORK?</h3>
+		</hgroup>
+	
+
+		</a>
+		<figure id="drop">
+			<img src="imgs/flatMinion.png" alt=""/>
+		</figure>
+			<div id="toxin"></div>
+		
+		<article id="description">
+			<h3>Let's meet a minion</h3>
+			<p>to find out.
+			</p>
+			<aside id="red">
+				<p><em></em></p>
+			</aside>
+		</article>
+		
+		<!-- <img id="cloud1" src="Fracking/clouds.png" alt=""  />
+		<img id="cloud2" src="Fracking/clouds4.png" alt="" />
+		<img id="cloud3" src="Fracking/clouds2.png" alt=""  />
+		<img id="cloud4" src="Fracking/clouds3.png" alt=""  />
+		<img id="cloud5" src="Fracking/clouds4.png" alt=""  />
+		<img id="cloud6" src="Fracking/clouds3.png" alt=""  />
+		<img id="cloud7" src="Fracking/clouds3.png" alt=""  />
+		<img id="cloud8" src="Fracking/clouds.png" alt=""  />
+		<img id="cloud9" src="Fracking/clouds2.png" alt=""  /> -->
+	</section>
+	
+	<!-- <figure id ="mrtruck" class="truckleft"><img src="Fracking/truck.png" alt="" /></figure> -->
+	
+	<!-- Highway -->
+	<section id="highway">
+	
+		<article id="texttrucks">
+			<!-- <h3>To the site</h3>
+			<p>
+			Each gas well requires an average of <em>400 tanker trucks</em> to carry water and supplies to and from the site. 
+			</p> -->
+		</article>	
+		<article id="texttrucks2">
+			<h3>Heavy Load</h3>
+			<p>
+			It takes <em>1-8 million gallons of water</em> to complete each fracturing job. 
+			</p>
+		</article>
+			
+		<!-- <img id="city" src="Fracking/city.png" alt=""  /> -->
+		<div id="hill"></div>
+		<div id="road" class="hidedrop"></div>
+		<div id="dirtroad"></div>
+	</section>
+	
+	<!-- Fracking Site -->
+	<section id="fracksite">
+		<!-- <div id="site" class="hidedrop2"><img src="Fracking/site.png" alt=""  /></div> -->
+		<div id="sitecontain"></div>
+		
+		<!-- <article id="chemicals">
+			<h3 class="white">Fracturing Site</h3>
+			<p> keep scrolling down!   
+			</p>
+		</article> -->
+		<div id="targetchemical"></div>
+	
+	</section>
+	
+	<!-- Rig -->
+	<section id="bground">
+		<article id="chemicals2">
+			<!-- <h3>Fracking Fluid</h3>
+			<p>Up to <em>600 chemicals</em> are used in fracking fluid, including known carcinogens and toxins such as…
+			</p> -->
+		</article>
+
+	</section>
+	
+	<!-- Ground -->
+	<section id="ground2">
+		<article id="chemicals3">
+			<!-- <h3>Down 10,000ft</h3>
+			<p>The fracking fluid is then pressure injected into the ground through a drilled pipeline. </p> -->
+		</article>
+		
+		<figure id="pipe"></figure>
+		
+		<!-- <div id="cracks3"><img src="Fracking/cracks.png" alt="" /></div> -->
+		<div id="trigger3"></div>
+		
+		
+	</section>
+	
+	<section id="ground3">
+	</section>
+	
+
+</body> 
+</html>
+
